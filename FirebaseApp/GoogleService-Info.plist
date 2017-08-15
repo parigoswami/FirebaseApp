@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>59271998721-8u2891lu0do40ogo4dstj2kpmui47r9q.apps.googleusercontent.com</string>
+	<string>271853917978-nm3rht4q18u65ju5tu2qo531lq568u2p.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.59271998721-8u2891lu0do40ogo4dstj2kpmui47r9q</string>
+	<string>com.googleusercontent.apps.271853917978-nm3rht4q18u65ju5tu2qo531lq568u2p</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBVAB2iFkVrpG-fidh2Gkb8zEkmiYa-TpE</string>
+	<string>AIzaSyAzbaYcBnwSctCRxuQR2AYrPZi32GWEiX0</string>
 	<key>GCM_SENDER_ID</key>
-	<string>59271998721</string>
+	<string>271853917978</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.pari.tryC.FirebaseApp</string>
 	<key>PROJECT_ID</key>
-	<string>gmailloginfirst</string>
+	<string>fir-app-f1dc0</string>
 	<key>STORAGE_BUCKET</key>
-	<string>gmailloginfirst.appspot.com</string>
+	<string>fir-app-f1dc0.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:59271998721:ios:adcd68ce9acf7f74</string>
+	<string>1:271853917978:ios:adcd68ce9acf7f74</string>
 	<key>DATABASE_URL</key>
-	<string>https://gmailloginfirst.firebaseio.com</string>
+	<string>https://fir-app-f1dc0.firebaseio.com</string>
 </dict>
 </plist>

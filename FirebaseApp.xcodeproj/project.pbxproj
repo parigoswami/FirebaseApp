@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		196E7BC12F244B59289D31A0 /* Pods_FirebaseApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2FD3C92467A3E9E54890C93 /* Pods_FirebaseApp.framework */; };
 		3D294F56169C9C6E5DD07F4B /* Pods_FirebaseAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4962E4621C8E95D965C873B /* Pods_FirebaseAppUITests.framework */; };
-		4F32550A1F42C3CF00923BFB /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F3255091F42C3CF00923BFB /* GoogleService-Info-2.plist */; };
 		4F32550D1F42C7DE00923BFB /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F32550C1F42C7DE00923BFB /* LoginController.swift */; };
+		4F32551D1F4315DA00923BFB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F32551C1F4315DA00923BFB /* GoogleService-Info.plist */; };
 		4F4F91551F42B3460089F316 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4F91541F42B3460089F316 /* AppDelegate.swift */; };
 		4F4F91571F42B3460089F316 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4F91561F42B3460089F316 /* ViewController.swift */; };
 		4F4F915A1F42B3470089F316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4F91581F42B3470089F316 /* Main.storyboard */; };
@@ -43,8 +43,8 @@
 		229088864D7663F70BC86172 /* Pods-FirebaseAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseAppUITests/Pods-FirebaseAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2C073BB9838FFC6BF8E34D38 /* Pods-FirebaseAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseAppTests/Pods-FirebaseAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4F3255081F42BCCB00923BFB /* FirebaseApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirebaseApp.entitlements; sourceTree = "<group>"; };
-		4F3255091F42C3CF00923BFB /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
 		4F32550C1F42C7DE00923BFB /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		4F32551C1F4315DA00923BFB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4F4F91511F42B3460089F316 /* FirebaseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F4F91541F42B3460089F316 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F4F91561F42B3460089F316 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 				4F3255081F42BCCB00923BFB /* FirebaseApp.entitlements */,
 				4F4F91541F42B3460089F316 /* AppDelegate.swift */,
 				4F4F91581F42B3470089F316 /* Main.storyboard */,
-				4F3255091F42C3CF00923BFB /* GoogleService-Info-2.plist */,
+				4F32551C1F4315DA00923BFB /* GoogleService-Info.plist */,
 				4F4F915E1F42B3470089F316 /* Assets.xcassets */,
 				4F4F91601F42B3470089F316 /* LaunchScreen.storyboard */,
 				4F4F91631F42B3470089F316 /* Info.plist */,
@@ -310,8 +310,8 @@
 			files = (
 				4F4F91621F42B3470089F316 /* LaunchScreen.storyboard in Resources */,
 				4F4F915F1F42B3470089F316 /* Assets.xcassets in Resources */,
-				4F32550A1F42C3CF00923BFB /* GoogleService-Info-2.plist in Resources */,
 				4F4F915A1F42B3470089F316 /* Main.storyboard in Resources */,
+				4F32551D1F4315DA00923BFB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
