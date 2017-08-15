@@ -13,6 +13,8 @@ import FirebaseStorage
 
 class LoginController: UIViewController {
 
+    var ref: DatabaseReference?
+    
     let inputsContainerView : UIView = {
         let view = UIView()
         view.backgroundColor = UIColor.white
@@ -53,18 +55,17 @@ class LoginController: UIViewController {
             }else{
                 print("__Successfully Registerd__")
             }
-            let ref = DatabaseReference().database.reference(fromURL: "https://fir-app-f1dc0.firebaseio.com/")
             //creating a dictionary
+            self.ref = Database.database().reference()
             let values = ["name":name,"email":email]
-            ref.updateChildValues(values, withCompletionBlock: { (err, ref) in
-                if err != nil{
-                    print("Error ")
-                    print(error?.localizedDescription ?? "")
+//            self.ref?.childByAutoId().setValue(values)
+            self.ref?.childByAutoId().setValue(values, withCompletionBlock: { (error2, ref) in
+                if error2 != nil{
+                    print("Have an error",error2?.localizedDescription ?? "")
                     return
                 }
-                print("save user in firebaseDB ")
+                print("Sucessfully connected with FIRDb")
             })
-            
         }
     }
     
